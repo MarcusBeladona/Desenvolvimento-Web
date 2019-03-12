@@ -1,8 +1,8 @@
 # Desenvolvimento-Web
 
-<h5>Organização do curso Front-End usando commits.</h5>
+*Organização do curso Front-End usando commits.*
 
-<hr>
+---
 
 - [x] HTML5
 - [ ] CSS3
