@@ -1,53 +1,40 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <title>Home</title>
-</head>
-<body>
 
-<form>
+    <head>
+        <meta charset="UTF-8">
+        <title>Home</title>
+    </head>
 
-    <h2>Login</h2>
+    <body>
+        <form>
+            <h2>Login</h2>
+            Login <br>
+            <input type="text" name="login"> <br><br>
+            Senha <br>
+            <input type="password" name="senha"> <br><br>
+            <input type="submit" value="Enviar">
+        </form>
+        <form>
+            <h2>Cadastro</h2>
+            Login:<br>
+            <input type="text" name="loginCadastro"><br><br>
+            Sexo:<br>
+            <input type="radio" name="sexo" value="M"> Masculino<br>
+            <input type="radio" name="sexo" value="F"> Feminino<br><br>
+            Interesses:<br>
+            <input type="checkbox" name="interesses"> Futebol<br>
+            <input type="checkbox" name="interesses"> Alura<br><br>
+            Estado:<br>
+            <select name="estado">
+                <option value="ce">CE</option>
+                <option value="mg">MG</option>
+            </select><br><br>
+            Observações:<br>
+            <textarea></textarea>
+            <br><br>
+            <input type="submit" value="Cadastrar">
+        </form>
+    </body>
 
-    Login <br>
-    <input type="text" name="login"> <br><br>
-
-    Senha <br>
-    <input type="password" name="senha"> <br><br>
-
-    <input type="submit" value="Enviar">
-
-</form>
-
-<form>
-
-    <h2>Cadastro</h2>
-
-    Login:<br>
-    <input type="text" name="loginCadastro"><br><br>
-
-    Sexo:<br>
-    <input type="radio" name="sexo" value="M"> Masculino<br>
-    <input type="radio" name="sexo" value="F"> Feminino<br><br>
-
-    Interesses:<br>
-    <input type="checkbox" name="interesses"> Futebol<br>
-    <input type="checkbox" name="interesses"> Alura<br><br>
-
-    Estado:<br>
-    <select name="estado">
-        <option value="ce">CE</option>
-        <option value="mg">MG</option>
-    </select><br><br>
-
-    Observações:<br>
-    <textarea></textarea>
-
-    <br><br>
-    <input type="submit" value="Cadastrar">
-
-</form>
-
-</body>
 </html>
