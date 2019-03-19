@@ -1,19 +1,17 @@
-.floating {
-    border: 2px solid red;
-    background: blue;
-    height: 150px;
-    width: 150px;
-    margin: 10px 10px 0px;
-    float: left;
-    padding: 10px;
+#control {
+    /*inline, block, inline-block*/
+    display: inline-block;
+    border: solid red;
 }
 
-.clearing {
-    clear: both;
-    padding: 10px;
+#center {
+    /*auto*/
+    border: solid red;
+    width: 500px;
+    margin: auto;
 }
 
-.principal {
-    background: green;
-    border: 2px red solid;
-}
+#pos {
+/*fixed, relative, absolute, static*/
+    position: absolute;
+left: 30px;}
