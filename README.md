@@ -5,8 +5,8 @@
 ---
 
 - [x] HTML5
-- [ ] CSS3
-- [ ] CSS3 Avançado
+- [x] CSS3
+- [ ] CSS3 Intermediário e Avançado
 - [ ] HTML5 + CSS3
 - [ ] Bootstrap 4
 - [ ] JavaScript
