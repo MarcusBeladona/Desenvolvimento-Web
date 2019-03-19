@@ -1,0 +1,104 @@
+/*Ajuste da página*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: rgb(218, 218, 218);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+        'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*Configurações do menu*/
+
+#menu {
+    padding: 15px;
+    font-weight: 600;
+    text-align: center;
+    background-color: rgb(255, 208, 0);
+
+}
+
+#menu a:link,
+#menu a:visited {
+    color: white;
+    padding: 10px 14px;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    background-color: white;
+    color: rgb(255, 208, 0);
+}
+
+#logo {
+    padding: 12px;
+    font-size: 1.5em;
+    color: rgb(70, 70, 70);
+}
+
+#linktab {
+    padding: 10px;
+}
+
+.white {
+    color: white;
+}
+
+/*Configurações do corpo*/
+
+#body {
+    width: 920px;
+    margin: 0px auto;
+}
+
+#body h2 {
+    color: rgb(255, 208, 0);
+}
+
+#body h3 {
+    padding: 5px;
+    margin-bottom: 5px;
+    background: rgb(194, 194, 194);
+}
+
+#body h6 {
+    margin: 5px;
+}
+
+#body a {
+    text-decoration: none;
+    color: rgb(255, 208, 0);
+}
+
+#postarea {
+    width: 660px;
+    float: left;
+}
+
+#sidemenu {
+    width: 240px;
+    float: right;
+}
+
+#bottomdown {
+    clear: both;
+    padding: 15px;
+    text-align: center;
+    background: rgb(170, 170, 170);
+
+}
+
+.side {
+    padding: 10px;
+    margin: 10px 0px;
+    background: white;
+}
+
+.post {
+    padding: 10px;
+    margin: 10px 0px;
+    background: white;
+}
