@@ -1,20 +1,23 @@
-#control {
-    background-color: rgb(122, 45, 17);
+a {
+    font-weight: bold;
+    text-decoration: none;
+    margin: 20px;
+    border: 1px solid red;
     padding: 5px;
-    width: 80px;
-    height: 80px;
-    margin: 5px;
-    position: absolute;
-    z-index: 0;
 }
 
-#control1 {
-    background-color: coral;
-    padding: 5px;
-    width: 180px;
-    height: 180px;
-    margin: 5px;
-    position: absolute;
-    top: 20px;
-    z-index: 1;
+a:link {
+    color: red;
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: yellow;
 }
