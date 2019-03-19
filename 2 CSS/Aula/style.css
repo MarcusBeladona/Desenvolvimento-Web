@@ -1,0 +1,19 @@
+.floating {
+    border: 2px solid red;
+    background: blue;
+    height: 150px;
+    width: 150px;
+    margin: 10px 10px 0px;
+    float: left;
+    padding: 10px;
+}
+
+.clearing {
+    clear: both;
+    padding: 10px;
+}
+
+.principal {
+    background: green;
+    border: 2px red solid;
+}
