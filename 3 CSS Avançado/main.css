@@ -20,7 +20,8 @@ ul a {
     color: black;
 }
 
-a:hover {
+a:hover,
+a.ativo {
     color: white;
     background-position: right;
 }
