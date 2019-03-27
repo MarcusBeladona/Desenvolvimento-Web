@@ -8,42 +8,18 @@
     </head>
 
     <body>
-        <h2>Prompt de envio</h2>
-        <form>
-            <fieldset>
-                <legend>Detalhes</legend>
+        <div id="container">
 
-                <label>Nome:
-                    <input type="text" id="nome">
-                </label>
+            <img src="img/perfil.png">
 
-                <label>E-mail
-                    <input type="text" id="email">
-                </label>
+            <form id="box">
+                <input type="email" id="email" placeholder="E-mail">
 
-                <label for="">URL
-                    <input type="text" id="url">
-                </label>
-            </fieldset>
+                <input type="password" id="password" placeholder="Senha">
 
-            <fieldset>
-                <legend>Comentários</legend>
-                <label>Mensagem:
-                    <textarea name="mensagem" id="mensagem"></textarea>
-                </label>
-            </fieldset>
-
-            <fieldset>
-                <legend>Lembre-me</legend>
-                <label class="radio">
-                    <input class="radio" type="radio" name="sim" id="sim">Sim
-                    <br>
-                    <input class="radio" type="radio" name="nao" id="nao">Não
-                </label>
-            </fieldset>
-
-            <input type="submit" name="submit" id="submit">
-        </form>
+                <input type="submit" value="Enviar" id="submit">
+            </form>
+        </div>
     </body>
 
 </html>

@@ -1,31 +1,51 @@
-body h2 {
-    text-align: center;
+body {
+    background: url("img/fundo.jpg");
 }
 
-fieldset {
+#container {
+    width: 420px;
     margin: auto;
-    width: 42%;
-    letter-spacing: 0.5px;
-    margin-bottom: 10px;
+    margin-top: 150px;
+    background-color: rgba(255, 255, 255, 0.329);
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 20px;
+    padding-top: 0px;
 }
 
-input,
-textarea {
+img {
+    margin-top: -60px;
+    margin-bottom: 40px;
+}
+
+input {
     display: block;
-    width: 100%;
+    width: 360px;
+    margin: auto;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 0px;
 }
 
-input.radio {
-    width: unset;
-    display: inline-block;
-    margin-right: 8px;
+input#email {
+    background: url("img/icone-usuario.png") no-repeat left;
+}
+
+input#password {
+    background: url("img/icone-cadeado.png") no-repeat left;
+}
+
+input#email,
+input#password {
+    background-position: 10px;
+    background-color: white;
+    margin-bottom: 10px;
+    padding-left: 40px;
 }
 
 input#submit {
-    width: 42%;
-    margin: auto;
-}
-
-label {
+    background-color: rgb(231, 104, 0);
     cursor: pointer;
+    width: 400px;
 }
