@@ -1,51 +1,19 @@
-body {
-    background: url("img/fundo.jpg");
-}
-
-#container {
-    width: 420px;
-    margin: auto;
-    margin-top: 150px;
-    background-color: rgba(255, 255, 255, 0.329);
-    border-radius: 10px;
-    text-align: center;
-    padding: 10px;
-    padding-bottom: 20px;
-    padding-top: 0px;
-}
-
-img {
-    margin-top: -60px;
-    margin-bottom: 40px;
-}
-
-input {
-    display: block;
-    width: 360px;
-    margin: auto;
-    border-radius: 10px;
-    border: none;
-    padding: 10px 0px;
-}
-
-input#email {
-    background: url("img/icone-usuario.png") no-repeat left;
-}
-
-input#password {
-    background: url("img/icone-cadeado.png") no-repeat left;
-}
-
-input#email,
-input#password {
-    background-position: 10px;
-    background-color: white;
-    margin-bottom: 10px;
-    padding-left: 40px;
-}
-
-input#submit {
-    background-color: rgb(231, 104, 0);
-    cursor: pointer;
+.caixa {
     width: 400px;
+    background: #dedede url("img/fundo-arredondamento.png") left top;
+}
+
+.caixa h2 {
+    padding: 10px 20px 0px 20px;
+    background: url("img/topo2.png") no-repeat left top;
+}
+
+.caixa p {
+    padding: 0px 20px;
+    margin-bottom: 0px;
+}
+
+.ultimo {
+    padding: 10px;
+    background: url("img/baixo2.png") no-repeat left bottom;
 }
