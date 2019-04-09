@@ -1,0 +1,177 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	background: url("img/fundo.png") repeat-x;
+}
+
+#container {
+	width: 750px;
+	margin: 0px auto;
+}
+
+#head {
+	height: 150px;
+	background: url("img/detalhe-topo.png") no-repeat right top;
+	padding: 20px;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+#navbar ul {
+	margin-top: 30px;
+	background: #b1033b;
+	float: left;
+}
+
+#navbar ul li {
+	float: left;
+}
+
+#navbar ul li a {
+	font-size: 0.85em;
+	display: block;
+	padding: 0.5em 1.5em;
+	line-height: 2.1em;
+	text-decoration: none;
+	color: white;
+	background: url("img/divisor.png") no-repeat left center;
+}
+
+#navbar ul li a:hover {
+	color: #410014;
+}
+
+#navbar ul li#active a {
+	background: #de003e;
+	cursor: text;
+	color: white;
+}
+
+#body {
+	margin-top: 60px;
+	margin-bottom: 20px;
+	float: left;
+}
+
+#principal {
+	margin-left: 195px;
+	width: 270px;
+	float: left;
+}
+
+#secundario {
+	margin-left: 15px;
+	width: 270px;
+	float: left;
+}
+
+#lateral {
+	margin-left: -750px;
+	width: 180px;
+	float: left;
+}
+
+#foot {
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+	background: #294c71;
+	color: white;
+	clear: both;
+}
+
+.caixa {
+	background: url("img/fundo-caixa.png");
+	margin: 10px 0px;
+	padding: 5px;
+}
+
+.caixa h2 {
+	background: #294c71;
+	color: white;
+	font-size: 1em;
+	padding: 5px;
+}
+
+.caixa .conteudo {
+	background: white;
+	padding: 5px;
+	margin-top: 5px;
+}
+
+.entrevistas li {
+	padding: 10px 0px;
+}
+
+.entrevistas a {
+	padding: 5px;
+	text-decoration: none;
+	color: black;
+}
+
+.entrevistas a:hover {
+	padding-left: 20px;
+	background: url("img/marcador.png") no-repeat left center;
+}
+
+.news input#submit {
+	color: white;
+	background: #b1033b;
+	border: none;
+	margin-top: 5px;
+	padding: 5px;
+}
+
+.destaques img,
+.ultima img {
+	width: 100%;
+	border: solid gray 1px;
+	margin: 10px auto;
+}
+
+.caixa h3 {
+	margin-top: 5px;
+	background: #b1033b;
+	color: white;
+	padding: 5px;
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+#lateral a {
+	color: black;
+}
+
+.caixa .destaques .conteudo a {
+	color: #b1033b;
+	font-weight: bold;
+}
+
+.mundo img {
+	float: left;
+	margin: 5px;
+}
+.mundo li {
+	padding: 2px;
+	border-bottom: 1px solid #ccc;
+	height: 62px;
+}
+.mundo h3 {
+	font-size: 0.8em;
+	padding: 0;
+	color: #3e7ab9;
+	background: none;
+}
+
+.mundo p {
+	font-size: 0.7em;
+	color: #000;
+}
