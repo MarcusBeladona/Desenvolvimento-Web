@@ -1,0 +1,41 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.conteudo {
+    text-align: center;
+    padding: 10px;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.6em;
+}
+
+.image1, .image2, .image3 {
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image1 {
+    background-image: url("img/imagem1.jpg");
+}
+
+.image2 {
+    background-image: url("img/imagem2.jpg");
+}
+
+.image3 {
+    background-image: url("img/imagem4.jpg");
+}
+
+.image1 h1, .image2 h1, .image3 h1 {
+    top: 48%;
+    position: relative;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
