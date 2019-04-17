@@ -1,0 +1,28 @@
+header{
+    background: gray;
+}
+
+nav{
+    background: grey;
+}
+
+article{
+    padding: 10px;
+    background: blueviolet;
+}
+
+section{
+    background: bisque;
+}
+
+time{
+    background: green;
+}
+
+aside{
+    background: red;
+}
+
+footer{
+    background: gray;
+}
