@@ -6,9 +6,9 @@
 
 - [x] HTML5
 - [x] CSS3
-- [ ] CSS3 Intermediário e Avançado
-- [ ] HTML5 + CSS3
-- [ ] Bootstrap 4
+- [x] CSS3 Intermediário e Avançado
+- [ ] HTML5 + CSS3 Recursos Especiais
+- [ ] Bootstrap 4 + Design Responsivo
 - [ ] JavaScript
 - [ ] JavaScript Moderno
 - [ ] Server Apache
