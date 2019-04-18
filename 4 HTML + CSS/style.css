@@ -1,5 +1,5 @@
 article {
-    width: 800px;
+    width: 80%;
     height: 400px;
     background: gray;
     display: flex;
@@ -10,14 +10,17 @@ section {
     height: 100px;
     margin: 10px;
     background: white;
+    flex-wrap: wrap;
 }
 
 .one {
     order: 1;
     flex-grow: 1;
+    flex-shrink: 2;
 }
 
 .two {
     order: 1;
     flex-grow: 2;
+    flex-basis: 150px;
 }
