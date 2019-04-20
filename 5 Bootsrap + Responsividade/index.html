@@ -16,13 +16,48 @@
     </head>
 
     <body>
-        <p class="font-weight-bold">Texto negrito</p>
+        <!-- Parágrafo justificado -->
+        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.</p>
 
-        <ul class="list-inline">
-            <li class="list-inline-item">Item 1</li>
-            <li class="list-inline-item">Item 2</li>
-            <li class="list-inline-item">Item 3</li>
-        </ul>
+        <br>
+        <br>
+
+        <!-- 
+            Alinhamento responsivo - text-<tela>-<alinhamento>
+                tela: sm, md, lg, xl
+                alinhamento: left, center, right
+         -->
+        <p class="text-sm-right">tela &gt;= 576px</p>
+        <!--Small-->
+        <p class="text-md-right">tela &gt;= 768px</p>
+        <!--Medium-->
+        <p class="text-lg-right">tela &gt;= 992px</p>
+        <!--Large-->
+        <p class="text-xl-right">tela &gt;= 1200px</p>
+        <!--Extra Large-->
+
+        <br>
+        <br>
+
+        <!-- Elemento Block para inline -->
+        <h1 class="bg-success d-inline">Lorem ipsum dolor</h1>
+        <p class="bg-success d-inline">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+        <br>
+        <br>
+
+        <!-- Elemento Inline para Block -->
+        <span class="bg-success d-block">Lorem ipsum dolor</span>
+        <br>
+        <span class="bg-success d-block">Lorem ipsum dolor 2</span>
+
+        <br>
+        <br>
+
+        <!-- Elemento Inline para Block -->
+        <h3 class="bg-success d-inline-block">Lorem ipsum</h3>
+        <h3 class="bg-success d-inline-block">Lorem ipsum dolor</h3>
     </body>
 
 </html>
