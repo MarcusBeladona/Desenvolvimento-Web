@@ -9,13 +9,343 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 
+        <!-- Extra CSS -->
         <link rel="stylesheet" href="style.css">
 
-        <title>Hello, world!</title>
+        <title>Bootstrap 4 - Classes</title>
     </head>
 
     <body class="p-1">
+        <!-- Cabeçalho -->
+        <h1 class="h1">h1</h1>
+        <h2 class="h2">h2</h2>
+        <h3 class="h3">h3</h3>
+        <h4 class="h4">h4</h4>
+        <h5 class="h5">h5</h5>
+        <h6 class="h6">h6</h6>
 
+        <br>
+        <br>
+
+        <!-- display classes - Maior destaque -->
+        <h1 class="display-1">Display-1</h1>
+        <h1 class="display-2">Display-2</h1>
+        <h1 class="display-3">Display-3</h1>
+        <h1 class="display-4">Display-4</h1>
+
+        <br>
+        <br>
+
+        <!-- Parágrafo Normal -->
+        <p>Parágrafo normal sem nenhuma classe.</p>
+
+        <!-- Parágrafo Destacado -->
+        <p class="lead">Parágrafo com a classe <strong>lead</strong>.</p>
+
+        <!-- Parágrafo Monospace -->
+        <p class="text-monospace">Parágrafo com a classe <strong>text-monospace</strong>.</p>
+
+        <br>
+        <br>
+
+        <!-- Classes de estilo -->
+        <p class="font-weight-bold">font-weight-bold</p>
+        <p class="font-weight-normal">font-weight-normal</p>
+        <p class="font-italic">font-italic</p>
+
+        <br>
+        <br>
+
+        <!-- Transformação de textos -->
+        <p class="text-uppercase">text-uppercase</p>
+        <p class="text-lowercase">text-lowercase</p>
+        <p class="text-capitalize">text-capitalize</p>
+
+        <br>
+        <br>
+
+        <!-- Alinhamentos -->
+        <p class="text-right">text-right</p>
+        <p class="text-left">text-left</p>
+        <p class="text-center">text-center</p>
+
+        <br>
+        <br>
+
+        <!-- Bloco de citação -->
+        <blockquote class="blockquote">
+            <p>Esse é um bloco de citação! Classe <strong>blockquote</strong>.</p>
+        </blockquote>
+
+        <br>
+        <br>
+
+        <!-- Bloco de citação com rodapé -->
+        <blockquote class="blockquote">
+            <p>Bloco de citação com rodapé. Classe <strong>blockquote</strong>.</p>
+            <footer class="blockquote-footer">Rodapé com classe
+                <cite><strong>blockquote-footer</strong>.</cite>
+            </footer>
+        </blockquote>
+
+        <br>
+        <br>
+
+        <!-- Truncate -->
+        <p class="text-truncate">Classe <strong>text-truncate</strong>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.</p>
+
+        <br>
+        <br>
+
+        <!-- Listas sem estilo -->
+        <strong>list-unstyled</strong>
+        <ul class="list-unstyled">
+            <li>li</li>
+            <li>li</li>
+            <li>li</li>
+        </ul>
+
+        <!-- Listas inline -->
+        <strong>list-inline</strong>
+        <ul class="list-inline">
+            <li class="list-inline-item">list-inline-item</li>
+            <li class="list-inline-item">list-inline-item</li>
+            <li class="list-inline-item">list-inline-item</li>
+        </ul>
+
+        <!-- Parágrafo justificado -->
+        <p class="text-justify">Classe <strong>text-justify</strong>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.</p>
+
+        <br>
+        <br>
+
+        <!-- 
+        Alinhamento responsivo - 
+        class text-<tela>-<alinhamento>
+            tela: sm, md, lg, xl
+            alinhamento: left, center, right
+     -->
+        <p class="text-sm-left"><strong>text-sm-left</strong> -- tela &gt;= 576px</p>
+        <!--Small-->
+        <p class="text-md-center"><strong>text-md-center</strong> -- tela &gt;= 768px</p>
+        <!--Medium-->
+        <p class="text-lg-center"><strong>text-lg-center</strong> -- tela &gt;= 992px</p>
+        <!--Large-->
+        <p class="text-xl-right"><strong>text-xl-right</strong> -- tela &gt;= 1200px</p>
+        <!--Extra Large-->
+
+        <br>
+        <br>
+
+        <!-- Elemento Block para inline -->
+        <h1 class="bg-success d-inline">Classe <strong>d-inline</strong> no H1.</h1>
+        <p class="bg-success d-inline">Classe <strong>d-inline</strong> no parágrafo.</p>
+
+        <br>
+        <br>
+
+        <!-- Elemento Inline para Block -->
+        <span class="bg-success d-block"><strong>d-block</strong></span>
+        <br>
+        <span class="bg-success d-block"><strong>d-block</strong></span>
+
+        <br>
+        <br>
+
+        <!-- Elemento Inline-Block -->
+        <div class="bg-warning">
+            <h3 class="bg-success d-inline-block"><strong>d-inline-block</strong></h3>
+            <h3 class="bg-success d-inline-block" style="margin-top: 50px;width: 400px;"><strong>d-inline-block</strong></h3>
+        </div>
+
+        <br>
+        <br>
+
+        <!-- Elementos flutuantes -->
+        <div style="border: 1px solid red;">
+            <div class="bg-success float-left"><strong>float-left</strong></div>
+            <div class="bg-success float-right"><strong>float-right</strong></div>
+            <div class="clearfix"><strong>clearfix</strong> clearboth</div>
+        </div>
+
+        <!-- Posicionamento fixo - top e bottom -->
+        <h1 class="bg-success fixed-bottom">fixed-bottom</h1>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.</p>
+
+        <!-- 
+        Float responsivo - float-<tela>-<direcao>
+            tela: sm, md, lg, xl
+            alinhamento: left, right
+     -->
+        <div class="bg-primary float-sm-right"><strong>float-sm-right</strong> -- tela &gt;= 576px * </div>
+        <!--Small-->
+        <div class="bg-primary float-md-left"><strong>float-md-left</strong> -- tela &gt;= 768px * </div>
+        <!--Medium-->
+        <div class="bg-secondary float-lg-right"><strong>float-lg-right</strong> -- tela &gt;= 992px * </div>
+        <!--Large-->
+        <div class="bg-secondary float-xl-left"><strong>float-xl-left</strong> -- tela &gt;= 1200px * </div>
+        <!--Extra Large-->
+
+        <br>
+        <br>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum elementum quam, a viverra ligula fringilla tempus. Ut tempor, dui eu semper aliquet, sem nisi pellentesque libero, suscipit porttitor risus magna vel lorem.</p>
+
+        <!-- Colar no topo (sticky) -->
+        <ul class="list-inline bg-warning sticky-top">
+            <strong>sticky-top</strong>
+            <br>
+            <li class="list-inline-item">list-inline-item</li>
+            <li class="list-inline-item">list-inline-item</li>
+            <li class="list-inline-item">list-inline-item</li>
+        </ul>
+
+        <!-- Classes para formatação de textos -->
+        <div style="background-color: bisque;">
+            <h1 class="text-primary">text-primary</h1>
+            <h1 class="text-secondary">text-secondary</h1>
+            <h1 class="text-success">text-success</h1>
+            <h1 class="text-info">text-info</h1>
+            <h1 class="text-warning">text-warning</h1>
+            <h1 class="text-danger">text-danger</h1>
+            <h1 class="text-light">text-light</h1>
+            <h1 class="text-dark">text-dark</h1>
+            <h1 class="text-white">text-white</h1>
+            <h1 class="text-black-50">text-black-50</h1>
+            <h1 class="text-white-50">text-white-50</h1>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <!-- Backgrounds -->
+        <div style="background-color: bisque;" class="p-2">
+            <div class="bg-primary">bg-primary</div>
+            <div class="bg-secondary">bg-secondary</div>
+            <div class="bg-success">bg-success</div>
+            <div class="bg-info">bg-info</div>
+            <div class="bg-warning">bg-warning</div>
+            <div class="bg-danger">bg-danger</div>
+            <div class="bg-light">bg-light</div>
+            <div class="bg-dark text-white">bg-dark</div>
+            <div class="bg-white">bg-white</div>
+            <div class="bg-transparent">bg-transparent</div>
+        </div>
+
+        <br><br>
+
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint placeat amet atque vel, incidunt expedita, non vero eaque saepe magnam harum veritatis, enim dolor rerum obcaecati nihil facere minima? Labore!</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint placeat amet atque vel, incidunt expedita, non vero eaque saepe magnam harum veritatis, enim dolor rerum obcaecati nihil facere minima? Labore!</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint placeat amet atque vel, incidunt expedita, non vero eaque saepe magnam harum veritatis, enim dolor rerum obcaecati nihil facere minima? Labore!</p>
+
+        <br>
+        <br>
+
+        <!-- Aplicação de Margin
+    mt -> Margin Top
+    mb -> Margin Bottom
+    ml -> Margin Left
+    mr -> Margin Right
+    mx -> Margin no eixo x (horizontal) esquerda/direita
+    my -> Margin no eixo y (vertical) top/bottom
+    m  -> Margin em todos os lados
+    Valor a definir (0 até 5)
+    -->
+        <h1 class="bg-success">m* (margin, top, left, bottom, right, x, y)</h1>
+        <p class="bg-success mt-5">mt-5</p>
+        <h1 class="bg-success mx-4">mx-4</h1>
+        <p class="bg-success m-5">m-5</p>
+
+        <br>
+        <br>
+
+        <!-- Aplicação de Padding
+    pt -> Padding Top
+    pb -> Padding Bottom
+    pl -> Padding Left
+    pr -> Padding Right
+    px -> Padding no eixo x (horizontal) esquerda/direita
+    py -> Padding no eixo y (vertical) top/bottom
+    p  -> Padding em todos os lados
+    Valor a definir (0 até 5)
+    -->
+        <h1 class="bg-success">p* (padding, top, left, bottom, right, x, y)</h1>
+        <p class="bg-success pt-5">pt-5</p>
+        <h1 class="bg-success px-4">px-4</h1>
+        <p class="bg-success p-5">p-5</p>
+
+        <br>
+        <br>
+
+        <!-- classes de largura -->
+        <h3>width %</h3>
+        <div class="bg-primary w-25">w-25</div>
+        <div class="bg-primary w-50">w-50</div>
+        <div class="bg-primary w-75">w-75</div>
+        <div class="bg-primary w-100">w-100</div>
+        <div class="bg-primary w-auto">w-auto</div>
+
+        <br>
+        <br>
+
+        <!-- classes de altura -->
+        height %
+        <div style="height: 300px;border: 1px solid gray;">
+            <div class="bg-warning d-inline-block h-25">h-25</div>
+            <div class="bg-warning d-inline-block h-50">h-50</div>
+            <div class="bg-warning d-inline-block h-75">h-75</div>
+            <div class="bg-warning d-inline-block h-100">h-100</div>
+            <div class="bg-warning d-inline-block h-auto">h-auto</div>
+        </div>
+
+        <br>
+        <br>
+
+        <!-- Bordas
+    border        -> todas as bordas
+    border-top    -> borda superior
+    border-bottom -> borda inferior
+    border-right  -> bordar direita
+    border-left   -> borda esquerda
+
+    Cores de bordas
+    border-<cor>: primary, secondary, success, 
+        info, warning, danger, light, dark, white
+    -->
+        <div class="bg-white mb-2 border border-danger">border + border-danger</div>
+        <div class="bg-white mb-2 border-top">border-top</div>
+        <div class="bg-white mb-2 border-bottom">border-bottom</div>
+        <div class="bg-white mb-2 border-right">border-right</div>
+        <div class="bg-white mb-2 border-left">border-left</div>
+
+        <br>
+        <br>
+
+        <!-- Border Radius 
+    opções: rounded, rounded-top, rounded-right, 
+            rounded-right, rounded-left, rounded-circle
+    -->
+        <div class="bg-light mb-2 border rounded">border + rounded</div>
+        <div class="bg-light mb-2 border rounded-top">border + rounded-top</div>
+        <div class="bg-light mb-2 border rounded-bottom">border + rounded-bottom</div>
+        <div class="bg-light mb-2 border rounded-right">border + rounded-right</div>
+        <div class="bg-light mb-2 border rounded-left">border + rounded-left</div>
+        <div class="bg-light mb-2 border rounded-pill">border + rounded-pill</div>
+        <div class="bg-light mb-2 p-5 border w-25 rounded-circle">border + w-25 + rounded-circle</div>
+
+        <br>
+        <br>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.min.js"></script>
     </body>
 
 </html>
